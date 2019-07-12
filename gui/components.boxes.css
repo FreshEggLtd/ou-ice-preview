@@ -1,0 +1,115 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Boxes
+	components.boxes.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+.ou-box {
+	padding:15px 15px 15px 20px;
+	background-color:#eee;
+	color: #222;
+	margin:0 0 20px 0;
+}
+
+.ou-box > *:last-child {margin-bottom:0;}
+
+.ou-box h2,
+.ou-box h3 {
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	font-size:1.1em;
+	margin:0 0 8px 0;
+}
+
+.ou-box--success,
+.ou-box--info,
+.ou-box--warning,
+.ou-box--note {
+	border-left-width:3px;
+	border-style:solid;
+	border-color:#ccc;
+}
+
+.ou-box--success {border-color:#008A00;}
+.ou-box--info {border-color:#0e56a7;}
+
+.ou-box--warning {
+	border-color:#cd2041;
+	background-color:#fdf0f2;
+}
+
+.ou-box--note {
+	border-color:#ffd400;
+	background-color:#fdf6cd;
+}
+
+
+/* pulls */
+
+.ou-box.ou-pull-right,
+.ou-box.ou-pull-left {width:40%;}
+
+.ou-box.ou-pull-right {margin:0 0 20px 20px;}
+.ou-box.ou-pull-left {margin:0 20px 20px 0;}
+
+
+/* colours */
+
+.ou-box.ou-bg-green,
+.ou-box.ou-bg-green h2,
+.ou-box.ou-bg-green h3,
+.ou-box.ou-bg-red, 
+.ou-box.ou-bg-red h2, 
+.ou-box.ou-bg-red h3, 
+.ou-box.ou-bg-burgundy,
+.ou-box.ou-box.ou-bg-burgundy h2,
+.ou-box.ou-box.ou-bg-burgundy h3,
+.ou-box.ou-bg-blue,
+.ou-box.ou-bg-blue h2,
+.ou-box.ou-bg-blue h3,
+.ou-box.ou-bg-dark-blue,
+.ou-box.ou-bg-dark-blue h2,
+.ou-box.ou-bg-dark-blue h3,
+.ou-box.ou-bg-dark-grey,
+.ou-box.ou-bg-dark-grey h2,
+.ou-box.ou-bg-dark-grey h3,
+.ou-box.ou-bg-purple,
+.ou-box.ou-bg-purple h2,
+.ou-box.ou-bg-purple h3,
+.ou-box.ou-bg-orange,
+.ou-box.ou-bg-orange h2,
+.ou-box.ou-bg-orange h3,
+.ou-box.ou-bg-black,
+.ou-box.ou-bg-black h2,
+.ou-box.ou-bg-black h3,
+.ou-box.ou-bg-pink,
+.ou-box.ou-bg-pink h2,
+.ou-box.ou-bg-pink h3,
+.ou-box.ou-bg-dark-green,
+.ou-box.ou-bg-dark-green h2,
+.ou-box.ou-bg-dark-green h3 {color:#fff;}
+
+
+
+
+
+@media 
+only screen and (max-width: 400px), 
+only screen and (max-device-width: 400px) {
+
+
+.ou-box.ou-pull-right,
+.ou-box.ou-pull-left {
+	width:100%;
+	float:none;
+	margin:0 0 20px 0;
+}
+
+
+} /* end media query */
+
+

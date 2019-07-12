@@ -1,0 +1,78 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Tables
+	components.tables.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+.ou-table {margin: 0 0 20px 0;}
+
+.ou-table td, 
+.ou-table th {
+	padding: 10px 12px;
+	border: 1px solid #ddd;
+}
+
+.ou-table th {font-weight:bold;}
+
+
+/* wrap */
+
+.ou-table-wrap {overflow:auto;}
+
+
+/* striped */
+
+.ou-table--striped tr:nth-child(even) {background: #eee;}
+
+
+/* plain */
+
+.ou-table--plain td, 
+.ou-table--plain th {
+	border: none;
+	padding:10px 0;
+}
+
+
+/* column widths */
+
+.ou-table--2cols td {width:50%;}
+.ou-table--3cols td {width:33%;}
+.ou-table--4cols td {width:25%;}
+.ou-table--5cols td {width:20%;}
+
+
+/* colours - dark */
+
+.ou-bg-black th,
+.ou-bg-dark-green th,
+.ou-bg-green th,
+.ou-bg-red th,
+.ou-bg-burgundy th,
+.ou-bg-dark-blue th,
+.ou-bg-blue th,
+.ou-bg-dark-grey th,
+.ou-bg-purple th,
+.ou-bg-pink th,
+.ou-bg-orange th {
+	color:#fff;
+	border-collapse:collapse;
+	border:none;
+}
+
+/* colours - light */
+
+.ou-bg-light-grey th,
+.ou-bg-grey th, 
+.ou-bg-light-blue th,
+.ou-bg-yellow th,
+.ou-bg-turquoise th,
+.ou-bg-beige th {
+	border-collapse:collapse;
+	border:none;
+}
+ 

@@ -1,0 +1,13 @@
+{
+    "name": "ou/ice",
+    "description": "OU ICE is a set of design patterns, components and templates to enable the Open University to deliver a consistent user interface to students, staff and members of the general public.",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Stephen Turvey",
+            "email": "smturvey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

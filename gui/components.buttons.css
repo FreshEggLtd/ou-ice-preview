@@ -1,0 +1,79 @@
+/*
+--------------------------------------------------------------------------------------
+
+	Buttons
+	components.buttons.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+.ou-button {
+	background-color: #888;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: inline-block;
+	margin: 0 5px 15px 0;
+	cursor:pointer;
+	border:0;
+	text-align:center;
+	line-height:120%;
+}
+
+.ou-button--primary,
+.ou-button--primary:visited {background-color: #e21481;}
+
+.ou-button--secondary,
+.ou-button--secondary:visited {background-color:#333;}
+
+.ou-button--success,
+.ou-button--success:visited {background-color:#008A00;}
+
+.ou-button--warning,
+.ou-button--warning:visited {background-color:#b52a1e;}
+
+.ou-button--disabled,
+button:disabled {
+	background-color:#ccc; 
+	color:#fff;
+	cursor:not-allowed;
+}
+
+.ou-button--block {
+	display:block;
+	margin-right:0;
+	width:100%;
+}
+
+.ou-button--more {
+	background-color:#fff;
+	border:1px solid #ccc;
+	padding:5px 10px;
+	font-size:.9em;
+	font-weight:normal;
+	color:#039;
+}
+
+.ou-button:hover {
+	background-color:#000 !important;
+	color:#fff;
+	text-decoration:none;
+}
+
+.ou-button--more:hover {
+	background-color:#fff !important;
+	border:1px solid #e21481;
+	color:#000;
+}
+
+.ou-button--disabled:hover {
+	background-color:#ccc !important; 
+	color:#fff;
+	cursor:not-allowed;
+}
+
+.ou-button:visited {color:#fff;}
+
+.ou-button--more:visited {color:#039;}

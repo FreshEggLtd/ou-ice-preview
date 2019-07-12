@@ -37,6 +37,7 @@
     overflow: scroll;
     transition: 0.5s all cubic-bezier(0, 0, 0.44, 0.99);
 	background: #fff;
+	z-index: 9999999999;
 }
 
 .ou-ice-header__nav  a:visited {

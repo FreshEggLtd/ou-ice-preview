@@ -176,7 +176,7 @@
 - Table of contents component has been updated to include wrapping nav element and aria-label - Recommend adding this to any existing table of contents components
 
 
-## Release V5.5 - August XX, 2019
+## Release V5.5 - August 09, 2019
 
 - Updated carousel arrow colour #cecece to #737373 to be brand compliant
 - Updated carousel dots from using 0.25 opcaity of black to a hex value #737373 to be brand compliant
